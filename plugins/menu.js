@@ -226,9 +226,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	rows: [
 	    {title: `📛 ${pmenus} INFO BOT`, rowId: ".info", description: "Menampilkan kecepatan respon "},
 	    {title: `💌 ${pmenus} OWNER`, rowId: ".owner", description: "Menampilkan List owner "},
-	    {title: `📔 ${pmenus} SCRIPT`, rowId: ".sc", description: `Source Code ${namebot}`},
+	    {title: `📔 ${pmenus} SCRIPT`, rowId: ".sc", description: `SC Nya Kack ${namebot}`},
 	{title: `🗣️ ${pmenus} REQUEST FITUR`, rowId: ".request", description: "Request fitur "},
-	{title: `👥 ${pmenus} Thanks To`, rowId: ".tqto", description: "terimakasih buat yang telah suport bot ini"},
+	{title: `👥 ${pmenus} Thanks To`, rowId: ".tqto", description: "terimakasih buat yang telah suport RullBOT"},
 	]
     },{
 	title: `┄┄┄┄┅┅| SUPPORT |┅┅┄┄┄┄`,
@@ -241,7 +241,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	},{
 	title: `┄┄┄┄┅┅| MENU |┅┅┄┄┄┄`,
 	rows: [
-	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
+	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua Command RullBOT"},
 	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
 	{title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
 	{title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru lho >-<"},
@@ -252,7 +252,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagne"},
 	{title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Only premium Users"},
 	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
-	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
+	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak:)"},
 	{title: `🌐 ${pmenus} Internet`, rowId: ".? internet", description: "Cari sesuatu diBOT"},
 	{title: `📩 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Download sesuatu diBOT"},
 	{title: `🎨 ${pmenus} Stikers`, rowId: ".? stiker", description: "Buat Sticker diBOT"},
@@ -263,15 +263,15 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	{title: `🗂️ ${pmenus} Database`, rowId: ".? database", description: "Simpan sesuatu diBOT"},
 	{title: `🛠️ ${pmenus} Tools`, rowId: ".? tools", description: "Mungkin tools ini bisa membantu?"},
 	{title: `ℹ️️ ${pmenus} Info`, rowId: ".? info", description: "Info info BOT"},
-	{title: `👩‍💻 ${pmenus} Owner`, rowId: ".? owner", description: "Owner Only!"},
+	{title: `🔒 ${pmenus} Owner`, rowId: ".? owner", description: "Owner Only!"},
 	{title: `🖼️ ${pmenus} Maker`, rowId: ".? maker", description: "Fitur Maker menu"},
-	{title: `⛔ ${pmenus} Next Update`, rowId: ".? update", description: "Perkembangan"},
+	{title: `⛔ ${pmenus} Next Update`, rowId: ".? update", description: "Perkembangan (Coming Soon)"},
 	]
   },
 ]
 
-let usrs = db.data.users[m.sender]
-let tek = `       *┄┄┄┅┅❑ DASHBOARD ❑┅┅┄┄┄*
+let usrs = db.data.users[m.sender
+let teks = ` *┄┄┄┅┅❑ DASHBOARD ❑┅┅┄┄┄*
 
    ┏─────────────────⬣
 ┏┤ *𝐈𝐧𝐟𝐨 𝐂𝐦𝐝*
@@ -280,18 +280,18 @@ let tek = `       *┄┄┄┅┅❑ DASHBOARD ❑┅┅┄┄┄*
 ┆┆⬡ *🅛︎* = Limit
 ┗─────────────────⬣
 ┏─────────────────⬣
-┆  *USER INFORMATION*
+┆  *𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝚂𝙸 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰*
 ┗┬──────────────┈ ⳹
    ┆⬡ *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
    ┆⬡ *ᴛᴀɢs:* @${m.sender.split`@`[0]}
    ┆⬡ *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
    ┆⬡ *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
    ┗┬──────────────┈ ⳹
-   ┏┤ *BOT INFORMATION*
+   ┏┤ *𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝚂𝙸 𝙱𝙾𝚃*
    ┆┗──────────────┈ ⳹
-   ┆⬡ *ᴜᴘᴛɪᴍᴇ:* ${mpt}
-   ┆⬡ *ᴛɪᴍᴇ:* ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
-   ┆⬡ *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
+   ┆⬡ *ᴡᴀᴋᴛᴜ ᴀᴋᴛɪꜰ:* ${mpt}
+   ┆⬡ *ᴡᴀᴋᴛᴜ:* ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
+   ┆⬡ *ᴘᴇɴɢɢᴜɴᴀ:* ${Object.keys(global.db.data.users).length}
    ┆⬡ *ʟɪᴍɪᴛ:* ${usrs.limit}
    ┆⬡ *ʟᴇᴠᴇʟ:* ${usrs.level}
    ┆⬡ *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
@@ -305,7 +305,7 @@ const listMessage = {
   footer: wm2,
   mentions: await conn.parseMention(tek),
   title: ``,
-  buttonText: `CLICK HERE☕︎`,
+  buttonText: `𝙋𝙄𝙇𝙄𝙃 𝙈𝙀𝙉𝙐🚀`,
   sections
 }
   if (teks == '404') {
@@ -584,22 +584,22 @@ function clockStringP(ms) {
   let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-  return [ye, ' *Years 🗓️*\n',  mo, ' *Month 🌙*\n', d, ' *Days ☀️*\n', h, ' *Hours 🕐*\n', m, ' *Minute ⏰*\n', s, ' *Second ⏱️*'].map(v => v.toString().padStart(2, 0)).join('')
+  return [ye, ' *Tahun 🗓️*\n',  mo, ' *Bulan 🌙*\n', d, ' *Hari ☀️*\n', h, ' *Jam 🕐*\n', m, ' *Menit ⏰*\n', s, ' *Detik ⏱️*'].map(v => v.toString().padStart(2, 0)).join('')
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   let res = "Selamat DiniHari ☀️"
   if (time >= 4) {
-    res = "Good Morning 🌄"
+    res = "Selamat Pagi 🌄"
   }
   if (time >= 10) {
-    res = "Good Afternoon ☀️"
+    res = "Selamat Siang 🌅"
   }
   if (time >= 15) {
-    res = "Good Afternoon 🌇"
+    res = "Selamat Sore 🌇"
   }
   if (time >= 18) {
-    res = "Good Night 🌙"
+    res = "Selamat Malam 🌌"
   }
   return res
 }
