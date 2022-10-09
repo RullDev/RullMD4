@@ -48,7 +48,7 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
 global.sig = 'https://instagram.com/kadung_bawel36' //Link Instagrammu
-global.sgh = 'https://github.com/RullDEV' //Link Githubmu
+global.sgh = 'https://github.com/RullDev' //Link Githubmu
 global.sgc = 'https://chat.whatsapp.com/D2NUDa6vk4I6hrS176mErV'
 global.sdc = '_'
 global.stg = 'https://instagram.com/kadung_bawel36'
