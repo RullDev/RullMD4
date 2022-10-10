@@ -224,9 +224,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
    {
 	title: `┄┄┄┄┅┅| MAIN |┅┅┄┄┄┄`,
 	rows: [
-	    {title: `📛 ${pmenus} INFO BOT`, rowId: ".info", description: "Menampilkan kecepatan respon "},
-	    {title: `💌 ${pmenus} OWNER`, rowId: ".owner", description: "Menampilkan List owner "},
-	    {title: `📔 ${pmenus} SCRIPT`, rowId: ".sc", description: `Source Code ${namebot}`},
+	    {title: `🚀 ${pmenus} INFO BOT`, rowId: ".info", description: "Menampilkan kecepatan respon "},
+	    {title: `🕊 ${pmenus} OWNER`, rowId: ".owner", description: "Menampilkan List owner "},
+	    {title: `📁 ${pmenus} SCRIPT`, rowId: ".sc", description: `Source Code ${namebot}`},
 	{title: `🗣️ ${pmenus} REQUEST FITUR`, rowId: ".request", description: "Request fitur "},
 	{title: `👥 ${pmenus} Thanks To`, rowId: ".tqto", description: "terimakasih buat yang telah suport bot ini"},
 	]
