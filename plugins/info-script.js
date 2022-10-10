@@ -8,7 +8,7 @@ let str = `*https://youtube.com/channel/UC1oSMQCd3XKVxYwSh4RE2Nw*`
 let wibu = `https://hadi-api.herokuapp.com/api/loli` 
 let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, str, wm,'ᴏᴋ','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://lynk.id/khoirull",
+    mediaUrl: "https://bit.ly/3eggcxd",
     title: 'KhrlMstfa',
     body: 'Jangan Dijual Ngentod Jangan Lupa Suscribe',
     thumbnail: thumb,
