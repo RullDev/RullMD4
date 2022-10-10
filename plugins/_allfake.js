@@ -46,10 +46,10 @@ handler.all = async function (m) {
 					title: global.ucapan,
 					body: wm,
 					mediaUrl: sgc,
-					description: 'Oscar-MultiDevice',
+					description: 'RullBOT',
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(thumb)).buffer(),
-					sourceUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ",					
+					sourceUrl: "https://youtube.com/channel/UC1oSMQCd3XKVxYwSh4RE2Nw",					
 				}
 			}
 		}
