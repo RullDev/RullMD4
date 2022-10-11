@@ -224,19 +224,19 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
    {
 	title: `┄┄┄┄┅┅| MAIN |┅┅┄┄┄┄`,
 	rows: [
-	    {title: `🚀 ${pmenus} INFO BOT`, rowId: ".info", description: "Menampilkan kecepatan respon "},
+	    {title: `🚀 ${pmenus} INFO BOT`, rowId: ".info", description: "Menampilkan kecepatan respon 𝙍𝙪𝙡𝙡𝘽𝙊𝙏 "},
 	    {title: `🕊 ${pmenus} OWNER`, rowId: ".owner", description: "Menampilkan List owner "},
-	    {title: `📁 ${pmenus} SCRIPT`, rowId: ".sc", description: `Source Code ${namebot}`},
+	    {title: `📁 ${pmenus} SCRIPT`, rowId: ".sc", description: `Source Code/Script ${namebot}`},
 	{title: `🗣️ ${pmenus} REQUEST FITUR`, rowId: ".request", description: "Request fitur "},
 	{title: `👥 ${pmenus} Thanks To`, rowId: ".tqto", description: "terimakasih buat yang telah suport bot ini"},
 	]
     },{
 	title: `┄┄┄┄┅┅| SUPPORT |┅┅┄┄┄┄`,
 	rows: [
-	    {title: `🔖 ${pmenus} Sewa Bot`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
+	    {title: `🔖 ${pmenus} Sewa Bot`, rowId: ".sewa", description: "Menampilkan list harga sewa 𝙍𝙪𝙡𝙡𝘽𝙊𝙏"},
 	    {title: `🌟 ${pmenus} Upgrade Premium`, rowId: ".premium", description: "Menampilkan list harga upgrade premium"},
-	    {title: `💰 ${pmenus} Donasi`, rowId: ".donasi", description: 'Support BOT agar on 1 Minggu non stop'},
-	{title: `✨ ${pmenus} Rate`, rowId: ".rate", description: 'Support BOT agar Semangat update'},
+	    {title: `💰 ${pmenus} Donasi`, rowId: ".donasi", description: 'Support 𝙍𝙪𝙡𝙡𝘽𝙊𝙏 agar on 1 Minggu non stop'},
+	{title: `✨ ${pmenus} Rate`, rowId: ".rate", description: 'Support 𝙍𝙪𝙡𝙡𝘽𝙊𝙏 agar Semangat update'},
 	]
 	},{
 	title: `┄┄┄┄┅┅| MENU |┅┅┄┄┄┄`,
@@ -252,7 +252,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagne"},
 	{title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Only premium Users"},
 	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
-	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
+	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak Inget Akhirat:)"},
 	{title: `🌐 ${pmenus} Internet`, rowId: ".? internet", description: "Cari sesuatu diBOT"},
 	{title: `📩 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Download sesuatu diBOT"},
 	{title: `🎨 ${pmenus} Stikers`, rowId: ".? stiker", description: "Buat Sticker diBOT"},
@@ -265,7 +265,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	{title: `ℹ️️ ${pmenus} Info`, rowId: ".? info", description: "Info info BOT"},
 	{title: `👩‍💻 ${pmenus} Owner`, rowId: ".? owner", description: "Owner Only!"},
 	{title: `🖼️ ${pmenus} Maker`, rowId: ".? maker", description: "Fitur Maker menu"},
-	{title: `⛔ ${pmenus} Next Update`, rowId: ".? update", description: "Perkembangan"},
+	{title: `⛔ ${pmenus} Next Update`, rowId: ".? update", description: "Perkembangan BOT"},
 	]
   },
 ]
