@@ -287,7 +287,6 @@ let tek = `       *┄┄┄┅┅❑ DASHBOARD ❑┅┅┄┄┄*
    ┆⬡ *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
    ┆⬡ *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
    ┆⬡ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
-   ┆
    ┆ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
    ┗┬──────────────┈ ⳹
    ┏┤ *BOT INFORMATION*
@@ -308,7 +307,7 @@ const listMessage = {
   footer: wm2,
   mentions: await conn.parseMention(tek),
   title: ``,
-  buttonText: `Klik Disini ⎙`,
+  buttonText: `Pilih Menu ⎙`,
   sections
 }
   if (teks == '404') {
