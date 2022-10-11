@@ -248,7 +248,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	{title: `🧩 ${pmenus} Fun`, rowId: ".? fun", description: "Fitur yang aman untuk keluarga"},
 	{title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
 	{title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
-	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Kamu wibu ya bang?"},
+	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Hadeh wibu wibu-_"},
 	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagne"},
 	{title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Only premium Users"},
 	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
@@ -265,7 +265,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	{title: `ℹ️️ ${pmenus} Info`, rowId: ".? info", description: "Info info BOT"},
 	{title: `👩‍💻 ${pmenus} Owner`, rowId: ".? owner", description: "Owner Only!"},
 	{title: `🖼️ ${pmenus} Maker`, rowId: ".? maker", description: "Fitur Maker menu"},
-	{title: `⛔ ${pmenus} Next Update`, rowId: ".? update", description: "Perkembangan BOT"},
+	{title: `⛔ ${pmenus} No Category Menu`, rowId: ".? update", description: "Perkembangan BOT"},
 	]
   },
 ]
@@ -286,6 +286,9 @@ let tek = `       *┄┄┄┅┅❑ DASHBOARD ❑┅┅┄┄┄*
    ┆⬡ *ᴛᴀɢs:* @${m.sender.split`@`[0]}
    ┆⬡ *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
    ┆⬡ *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
+   ┆⬡ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
+   ┆
+   ┆ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
    ┗┬──────────────┈ ⳹
    ┏┤ *BOT INFORMATION*
    ┆┗──────────────┈ ⳹
@@ -305,7 +308,7 @@ const listMessage = {
   footer: wm2,
   mentions: await conn.parseMention(tek),
   title: ``,
-  buttonText: `CLICK HERE☕︎`,
+  buttonText: `Klik Disini ⎙`,
   sections
 }
   if (teks == '404') {
@@ -590,16 +593,16 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   let res = "Selamat DiniHari ☀️"
   if (time >= 4) {
-    res = "Good Morning 🌄"
+    res = "Selamat Pagi 🌄"
   }
   if (time >= 10) {
-    res = "Good Afternoon ☀️"
+    res = "Selamat Siang 🌅"
   }
   if (time >= 15) {
-    res = "Good Afternoon 🌇"
+    res = "Selamat Sore 🌇"
   }
   if (time >= 18) {
-    res = "Good Night 🌙"
+    res = "Selamat Malam 🌆"
   }
   return res
 }
