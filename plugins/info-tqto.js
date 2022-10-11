@@ -64,13 +64,17 @@ https://github.com/Alpiii22
 *❉ Jarot:*
 *❉ Krisna:*
 *❉ Oscar-Md:*
+*❉ KhrlMstfa:*
+*❉ Enayy:*
+▸ - - - —「 My Repo 」— - - - ◂
+https://github.com/RullDev
 
 `
 conn.sendButtonDoc(m.chat, tqto, wm,'Thanks','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/Jarotr_",
+    mediaUrl: "https://bit.ly/3eggcxd",
     mediaType: "VIDEO",
-    description: "https://Instagram.com/Jarotr_", 
-    title: 'Oscar-MultiDevice',
+    description: "https://youtube.com/channel/UC1oSMQCd3XKVxYwSh4RE2Nw", 
+    title: 'KhrlMstfa',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
