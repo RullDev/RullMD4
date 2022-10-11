@@ -81,10 +81,10 @@ handler.all = async function (m) {
 			}
 		global.fakeig = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://Instagram.com/Jarotr_",
+            mediaUrl: "https://bit.ly/3eggcxd",
             mediaType: "VIDEO",
-            description: "https://Instagram.com/Jarotr_", 
-            title: 'Oscar-MultiDevice',
+            description: "https://youtube.com/channel/UC1oSMQCd3XKVxYwSh4RE2Nw", 
+            title: 'KhrlMstfa',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sig
@@ -92,10 +92,10 @@ handler.all = async function (m) {
     } }
 global.fakefb = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://Facebook.com/jarot",
+            mediaUrl: "https://bit.ly/3eggcxd",
             mediaType: "VIDEO",
-            description: "https://www.Facebook.com/jarot", 
-            title: 'Oscar-MultiDevice',
+            description: "https://youtube.com/channel/UC1oSMQCd3XKVxYwSh4RE2Nw", 
+            title: 'KhrlMstfa',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sgc
