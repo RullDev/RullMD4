@@ -25,14 +25,14 @@ const defaultMenu = {
 ┗┬──────────────┈ ⳹
 ┏┤   *𝐊𝐚𝐥𝐞𝐧𝐝𝐞𝐫*
 ┆┗──────────────┈ ⳹
-┆┆⬡ *Days:* %week %weton
-┆┆⬡ *Date:* %date
-┆┆⬡ *Islami Date:* %dateIslamic
-┆┆⬡ *Time:* %wib
+┆┆⬡ *Hari:* %week %weton
+┆┆⬡ *Tanggal:* %date
+┆┆⬡ *Tanggal Islami:* %dateIslamic
+┆┆⬡ *Waktu:* %wib
 ┗┬──────────────┈ ⳹
 ┏┤ *𝐁𝐨𝐭 𝐈𝐧𝐟𝐨*
 ┆┗──────────────┈ ⳹
-┆┆⬡ *Bot Name:* %me
+┆┆⬡ *Nama Bot:* %me
 ┆┆⬡ *Mode:* %mode
 ┆┆⬡ *Platform:* %platform
 ┆┆⬡ *Type:* Node.Js
@@ -241,7 +241,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	},{
 	title: `┄┄┄┄┅┅| MENU |┅┅┄┄┄┄`,
 	rows: [
-	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
+	    {title: `💬 ${pmenus} All Command`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
 	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
 	{title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
 	{title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru lho >-<"},
@@ -280,16 +280,16 @@ let tek = `       *┄┄┄┅┅❑ DASHBOARD ❑┅┅┄┄┄*
 ┆┆⬡ *🅛︎* = Limit
 ┗─────────────────⬣
 ┏─────────────────⬣
-┆  *USER INFORMATION*
+┆  *Informasi Pengguna*
 ┗┬──────────────┈ ⳹
-   ┆⬡ *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
+   ┆⬡ *ɴᴀᴍᴀ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
    ┆⬡ *ᴛᴀɢs:* @${m.sender.split`@`[0]}
    ┆⬡ *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
    ┆⬡ *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
    ┆⬡ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
    ┆ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
    ┗┬──────────────┈ ⳹
-   ┏┤ *BOT INFORMATION*
+   ┏┤ *Informasi BOT*
    ┆┗──────────────┈ ⳹
    ┆⬡ *ᴜᴘᴛɪᴍᴇ:* ${mpt}
    ┆⬡ *ᴛɪᴍᴇ:* ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
