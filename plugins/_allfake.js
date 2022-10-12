@@ -37,29 +37,17 @@ handler.all = async function (m) {
     // update status  
 
       if (new Date() * 1 - setting.status > 1000) {  
-
           let _uptime = process.uptime() * 1000  
-
           let uptime = clockString(_uptime)  
-
    const ultah = new Date('Oktober 21, 2022 23:59:59')
-
     const sekarat = new Date().getTime() 
-
     const Kurang = ultah - sekarat
-
     const ohari = Math.floor( Kurang / (1000 * 60 * 60 * 24));
-
     const ojam = Math.floor( Kurang % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
-
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
-
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
-
         await this.setBio(`🎂️ KhrlMstfa : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik
-
 ⏲️ Runtime: ${uptime} | 🛰 Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Only Group' : 'Public'} | 🚀 Made With KhrlMstfa`).catch(_ => _)  
-
           setting.status = new Date() * 1  
 
       }
