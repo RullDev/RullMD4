@@ -33,23 +33,37 @@ handler.all = async function (m) {
         
 		// ucapan ini mah
 		global.ucapan = ucapan()
-		
-????//?update?status? 
- ?????if?(new?Date()?*?1?-?setting.status?>?1000)?{? 
- ?????????let?_uptime?=?process.uptime()?*?1000? 
- ?????????let?uptime?=?clockString(_uptime)? 
+
+    // update status  
+
+      if (new Date() * 1 - setting.status > 1000) {  
+
+          let _uptime = process.uptime() * 1000  
+
+          let uptime = clockString(_uptime)  
+
    const ultah = new Date('Oktober 21, 2022 23:59:59')
+
     const sekarat = new Date().getTime() 
+
     const Kurang = ultah - sekarat
+
     const ohari = Math.floor( Kurang / (1000 * 60 * 60 * 24));
+
     const ojam = Math.floor( Kurang % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
+
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
+
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
- ???????await?this.setBio(`?? KhrlMstfa : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik
-???Runtime:?${uptime}?|???Mode:?${global.opts['self']???'Private'?:?setting.groupOnly???'Only?Group'?:?'Public'}?|???Made?With KhrlMstfa`).catch(_?=>?_)? 
- ?????????setting.status?=?new?Date()?*?1? 
- ?????}
-		
+
+        await this.setBio(`🎂️ KhrlMstfa : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik
+
+⏲️ Runtime: ${uptime} | 🛰 Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Only Group' : 'Public'} | 🚀 Made With KhrlMstfa`).catch(_ => _)  
+
+          setting.status = new Date() * 1  
+
+      }
+
 		// pesan sementara
 		global.ephemeral = '86400' // 86400 = 24jam, kalo ingin di hilangkan ganti '86400' jadi 'null' atau ''
      		// externalAdReply atau text with thumbnail. gatau bahasa Inggris? coba translate!
@@ -117,7 +131,7 @@ global.fakefb = {
             sourceUrl: sgc
     }
     } }
-		// Fake ðŸ¤¥
+		// Fake Ã°Å¸Â¤Â¥
 		global.ftroli = { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { itemCount: 9999999999999999999999999999999999999999999999999999999, status: 1, surface: 1, message: wm, orderTitle: wm, sellerJid: '0@s.whatsapp.net' } } }
 		global.fkontak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': wm, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg'), thumbnail: fs.readFileSync('./thumbnail.jpg'),sendEphemeral: true}}}
         global.fvn = {
@@ -279,21 +293,21 @@ export default handler
 
 function ucapan() {
 	const time = moment.tz('Asia/Jakarta').format('HH')
-	let res = "Selamat malam 🌌"
+	let res = "Selamat malam ð"
 	if(time >= 1) {
-		res = "Selamat Dini hari 🌌"
+		res = "Selamat Dini hari ð"
 	}
 	if(time >= 4) {
-		res = "Selamat pagi �?"
+		res = "Selamat pagi â?"
 	}
 	if(time > 10) {
-		res = "Selamat siang 🌅"
+		res = "Selamat siang ð"
 	}
 	if(time >= 15) {
-		res = "Selamat sore 🌇"
+		res = "Selamat sore ð"
 	}
 	if(time >= 18) {
-		res = "Selamat malam 🌃"
+		res = "Selamat malam ð"
 	}
 	return res
 }
