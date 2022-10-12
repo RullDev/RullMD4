@@ -163,7 +163,7 @@ global.fakefb = {
                                "jpegThumbnail": fs.readFileSync('./thumbnail.jpg') //Gambarnye
                            },
                            "title": wm, //Kasih namalu 
-                           "description": "Oscar-MultiDevice", 
+                           "description": "KhrlMstfa", 
                            "currencyCode": "USD",
                            "priceAmount1000": "20000000",
                            "retailerId": "Ghost",
@@ -196,7 +196,7 @@ global.fakefb = {
                "groupInviteMessage": {
                    "groupJid": "6285850539404-1625305606@g.us",
                    "inviteCode": "null",
-                   "groupName": "Kawan Oscar", 
+                   "groupName": "Kawan Rull", 
                    "caption": wm, 
                    'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')
                }
