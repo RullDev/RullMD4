@@ -88,7 +88,7 @@ global.APIs = { // API Prefix
   ana: 'https://anabotofc.herokuapp.com/',
   adiisus: 'https://adiixyzapi.herokuapp.com',
   violetics : 'https://violetics.pw', 
-  males : 'https://malesin.xyz'
+  males : 'https://api.lolhuman.xyz/api/tiktok?apikey=7facd6f11077ee4daecd55d5&url=${args[0]}'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
@@ -106,7 +106,7 @@ global.wm2 = '    𝙍𝙪𝙡𝙡𝘽𝙊𝙏 X ©ᵂʰʸᶻᶻˣʸᵀᵉᵃᵐ
 global.wm3 = '⫹⫺  𝙔𝙩 𝙍𝙪𝙡𝙡𝙕𝙔'
 global.botdate = `⫹⫺ 𝗛𝗮𝗿𝗶: ${week} ${date}`
 global.bottime = `𝗪𝗮𝗸𝘁𝘂 : ${wktuwib}`
-global.titlebot = '🎋 ┊ 𝗥𝗣𝗚 ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
+global.titlebot = '🚀 ┊ 𝙍𝙪𝙡𝙡𝘽𝙊𝙏 ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
 global.author = global.wm
 global.logo = 'https://ibb.co/17RY7x9'
 
