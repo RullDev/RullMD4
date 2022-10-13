@@ -29,7 +29,7 @@ handler.all = async function (m) {
 ├ 30 Hari / Rp 15,000
 └────
 `.trim(), wm, 'Pemilik Bot', '.owner', m)
-await this.reply('6287878505740-1632717792@g.us', `Ada Yang Mau Nyulik nih :v \n\ndari: @${m.sender.split("@")[0]} \n\npesan: ${m.text}`, m, { mentions: [m.sender] })
+await this.reply('6287753812675-1632717792@g.us', `Ada Yang Mau Nyulik nih :v \n\ndari: @${m.sender.split("@")[0]} \n\npesan: ${m.text}`, m, { mentions: [m.sender] })
     }
 
     if (m.isGroup) {
@@ -48,7 +48,7 @@ await this.reply('6287878505740-1632717792@g.us', `Ada Yang Mau Nyulik nih :v \n
 		let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
         let use = Object.keys(db.data.users).length
-		await this.setBio(`${data.owner} | Runtime: ${uptime} | Total User: ${use}`)
+		await this.setBio(`${data.owner} | 🚀Runtime: ${uptime} | 📁Total User: ${use}`)
 		setting.status = new Date() * 1
 	    }
 
