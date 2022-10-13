@@ -88,7 +88,7 @@ global.APIs = { // API Prefix
   ana: 'https://anabotofc.herokuapp.com/',
   adiisus: 'https://adiixyzapi.herokuapp.com',
   violetics : 'https://violetics.pw', 
-  males : 'https://api.lolhuman.xyz/api/tiktok?apikey=7facd6f11077ee4daecd55d5&url=${args[0]}'
+  males : 'https://api.lolhuman.xyz'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
