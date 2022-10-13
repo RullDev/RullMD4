@@ -4,7 +4,7 @@ export async function before(m) {
 	this.menfess = this.menfess ? this.menfess : {}
 	let mf = Object.values(this.menfess).find(v => v.status === false && v.penerima == m.sender)
 	if (!mf) return !0
-	if ((m.text === 'Mau Balas?Ketik teks nya!' || m.text === '') && m.quoted.mtype == 'buttonsMessage') return m.reply("Silahkan kirim pesan balasan kamu.");
+	if ((m.text === 'Mau Balas?Ketik teks nya!' || m.text === '') && m.quoted.mtype == 'buttonsMessage') return m.reply("Seret pesan untuk membalas pesan menfess.(No Clik Button!)");
 	let txt = `Hai kak @${mf.dari.split('@')[0]}, kamu menerima balasan nih.\n\nPesan yang kamu kirim sebelumnya:\n${mf.pesan}\n\nPesan balasannya:\n${m.text}\n`.trim();
 	await this.reply(mf.dari, txt, null).then(() => {
 		m.reply('Berhasil Mengirim balasan.')
