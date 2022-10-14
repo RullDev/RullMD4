@@ -1,9 +1,11 @@
+import axios from 'axios'
 import { tiktokdl, tiktokdlv2, tiktokdlv3 } from '@bochilteam/scraper'
 import { toAudio } from '../lib/converter.js'
 import fetch from 'node-fetch'
 
 let handler = async (m, { conn, args, usedprefix, command }) => {
     if (!args[0]) throw `use example ${usedprefix}${command} https://www.tiktok.com/@omagadsus/video/7025456384175017243`
+    let res = (await axios.get(API('males', '/tiktok', { url: args[0] } ))).data;
     const { author: { nickname }, video, description } = await tiktokdlv3(args[0])
     .catch(async _ => await tiktokdlv2(args[0]))
         .catch(async _ => await tiktokdl(args[0]))
