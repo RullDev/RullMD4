@@ -32,7 +32,7 @@ const defaultMenu = {
 ┗┬──────────────┈ ⳹
 ┏┤ *𝐁𝐨𝐭 𝐈𝐧𝐟𝐨*
 ┆┗──────────────┈ ⳹
-┆┆⬡ *Nama Bot:* %me
+┆┆⬡ *Nama Bot:* RullBOT *
 ┆┆⬡ *Mode:* %mode
 ┆┆⬡ *Platform:* %platform
 ┆┆⬡ *Type:* Node.Js
@@ -241,7 +241,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	},{
 	title: `┄┄┄┄┅┅| MENU |┅┅┄┄┄┄`,
 	rows: [
-	    {title: `💬 ${pmenus} All Command`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
+	    {title: `💬 ${pmenus} All Command`, rowId: ".? all", description: "Menampilkan Semua Command BOT"},
 	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
 	{title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
 	{title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru lho >-<"},
@@ -254,7 +254,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
 	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak Inget Akhirat:)"},
 	{title: `🌐 ${pmenus} Internet`, rowId: ".? internet", description: "Cari sesuatu diBOT"},
-	{title: `📩 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Download sesuatu diBOT"},
+	{title: `📥 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Download sesuatu diBOT"},
 	{title: `🎨 ${pmenus} Stikers`, rowId: ".? stiker", description: "Buat Sticker diBOT"},
 	{title: `✏️ ${pmenus} Nulis`, rowId: ".? nulis", description: "Nulis kok males kak?"},
 	{title: `🎧 ${pmenus} Audio`, rowId: ".? audio", description: "Ubah Audio dengan Filter"},
@@ -265,7 +265,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	{title: `ℹ️️ ${pmenus} Info`, rowId: ".? info", description: "Info info BOT"},
 	{title: `👩‍💻 ${pmenus} Owner`, rowId: ".? owner", description: "Owner Only!"},
 	{title: `🖼️ ${pmenus} Maker`, rowId: ".? maker", description: "Fitur Maker menu"},
-	{title: `⛔ ${pmenus} No Category Menu`, rowId: ".? update", description: "Perkembangan BOT"},
+	{title: `🔒 ${pmenus} No Category Menu`, rowId: ".? update", description: "Perkembangan BOT"},
 	]
   },
 ]
