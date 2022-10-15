@@ -54,8 +54,8 @@ let fs = require('fs')
      quoted: m, 
      contextInfo: { forwardingScore: 99999, isForwarded: true, 
          externalAdReply: { 
-                 sourceUrl: 'https://vt.tiktok.com/ZSRRmS8vh/', 
-             title: 'Ziv San UwU', 
+                 sourceUrl: 'https://bit.ly/3eggcxd', 
+             title: 'KhrlMstfa', 
              body: '', 
            thumbnail: await (await fetch('https://telegra.ph/file/de1678007a368fe66c052.jpg')).buffer() 
          } 
@@ -74,7 +74,7 @@ let fs = require('fs')
     const ojam = Math.floor( Kurang % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
-        await this.setBio(`☘️ Ultah Rull : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik
+        await this.setBio(`☘️ Ultah KhrlMstfa : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik
 ⏲️ Runtime: ${uptime} | 🛰 Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Only Group' : 'Public'} | 💌 Made KhrlMstfa`).catch(_ => _) 
           setting.status = new Date() * 1  
       } 
