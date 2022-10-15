@@ -32,7 +32,7 @@ const defaultMenu = {
 ┗┬──────────────┈ ⳹
 ┏┤ *𝐁𝐨𝐭 𝐈𝐧𝐟𝐨*
 ┆┗──────────────┈ ⳹
-┆┆⬡ *Nama Bot:* RullBOT *
+┆┆⬡ *Nama Bot:* 𝙍𝙪𝙡𝙡𝘽𝙊𝙏
 ┆┆⬡ *Mode:* %mode
 ┆┆⬡ *Platform:* %platform
 ┆┆⬡ *Type:* Node.Js
@@ -285,7 +285,7 @@ let tek = `       *┄┄┄┅┅❑ DASHBOARD ❑┅┅┄┄┄*
    ┆⬡ *ɴᴀᴍᴀ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
    ┆⬡ *ᴛᴀɢs:* @${m.sender.split`@`[0]}
    ┆⬡ *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-   ┆⬡ *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
+   ┆⬡ *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Iya✅': 'Tidak❌'}
    ┆⬡ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
    ┆ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
    ┗┬──────────────┈ ⳹
@@ -559,7 +559,7 @@ handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
 handler.command = /^(menu|help|\?)$/i
 
-handler.register = false
+handler.register = true
 handler.exp = 3
 
 export default handler
