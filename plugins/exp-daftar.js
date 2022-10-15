@@ -9,50 +9,50 @@ let handler = async function (m, { text, usedPrefix, command }) {
 	let namae = conn.getName(m.sender)
 	const sections = [
 	{
-	title: "Select Your Age Here !",
+	title: "Pilih Umur Kamu Disini !",
 	rows: [
-	    {title: "Random Years", rowId: '.daftar ' + namae + '.' + pickRandom(['30','29','28','27','26','25','24','23','22','21','20','19','18','17','16','15','14','13','12','11','10','9'])}
+	    {title: "Tahun Random", rowId: '.daftar ' + namae + '.' + pickRandom(['30','29','28','27','26','25','24','23','22','21','20','19','18','17','16','15','14','13','12','11','10','9'])}
 	]
     },
     {
-	title: "O L D",
+	title: "T U A",
 	rows: [
-	    {title: "30 Years", rowId: '.daftar ' + namae + '.30 '},
-	    {title: "29 Years", rowId: '.daftar ' + namae + '.29 '},
-	    {title: "28 Years", rowId: '.daftar ' + namae + '.28 '},
-	{title: "27 Years", rowId: '.daftar ' + namae + '.27 '},
-	{title: "26 Years", rowId: '.daftar ' + namae + '.26 '},
-	{title: "25 Years", rowId: '.daftar ' + namae + '.25 '},
-	{title: "24 Years", rowId: '.daftar ' + namae + '.24 '},
-	{title: "23 Years", rowId: '.daftar ' + namae + '.23 '},
-	{title: "22 Years", rowId: '.daftar ' + namae + '.22 '},
-	{title: "21 Years", rowId: '.daftar ' + namae + '.21 '}
+	    {title: "30 Tahun", rowId: '.daftar ' + namae + '.30 '},
+	    {title: "29 Tahun", rowId: '.daftar ' + namae + '.29 '},
+	    {title: "28 Tahun", rowId: '.daftar ' + namae + '.28 '},
+	{title: "27 Tahun", rowId: '.daftar ' + namae + '.27 '},
+	{title: "26 Tahun", rowId: '.daftar ' + namae + '.26 '},
+	{title: "25 Tahun", rowId: '.daftar ' + namae + '.25 '},
+	{title: "24 Tahun", rowId: '.daftar ' + namae + '.24 '},
+	{title: "23 Tahun", rowId: '.daftar ' + namae + '.23 '},
+	{title: "22 Tahun", rowId: '.daftar ' + namae + '.22 '},
+	{title: "21 Tahun", rowId: '.daftar ' + namae + '.21 '}
 	]
     },
     {
-	title: "Y O U N G",
+	title: "M U D A",
 	rows: [
-	    {title: "20 Years", rowId: '.daftar ' + namae + '.20 '},
-	    {title: "19 Years", rowId: '.daftar ' + namae + '.19 '},
-	    {title: "18 Years", rowId: '.daftar ' + namae + '.18 '},
-	{title: "17 Years", rowId: '.daftar ' + namae + '.17 '},
-	{title: "16 Years", rowId: '.daftar ' + namae + '.16 '},
-	{title: "15 Years", rowId: '.daftar ' + namae + '.15 '},
-	{title: "14 Years", rowId: '.daftar ' + namae + '.14 '},
-	{title: "13 Years", rowId: '.daftar ' + namae + '.13 '},
-	{title: "12 Years", rowId: '.daftar ' + namae + '.12 '},
-	{title: "11 Years", rowId: '.daftar ' + namae + '.11 '},
-	{title: "10 Years", rowId: '.daftar ' + namae + '.10 '},
-	{title: "9 Years", rowId: '.daftar ' + namae + '.9 '}
+	    {title: "20 Tahun", rowId: '.daftar ' + namae + '.20 '},
+	    {title: "19 Tahun", rowId: '.daftar ' + namae + '.19 '},
+	    {title: "18 Tahun", rowId: '.daftar ' + namae + '.18 '},
+	{title: "17 Tahun", rowId: '.daftar ' + namae + '.17 '},
+	{title: "16 Tahun", rowId: '.daftar ' + namae + '.16 '},
+	{title: "15 Tahun", rowId: '.daftar ' + namae + '.15 '},
+	{title: "14 Tahun", rowId: '.daftar ' + namae + '.14 '},
+	{title: "13 Tahun", rowId: '.daftar ' + namae + '.13 '},
+	{title: "12 Tahun", rowId: '.daftar ' + namae + '.12 '},
+	{title: "11 Tahun", rowId: '.daftar ' + namae + '.11 '},
+	{title: "10 Tahun", rowId: '.daftar ' + namae + '.10 '},
+	{title: "9 Tahun", rowId: '.daftar ' + namae + '.9 '}
 	]
     },
 ]
 
 const listMessage = {
-  text: `│›Please select your age at the bottom button...`,
-  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔> Want a costume name? type *${usedPrefix + command} yourname.age*`,
-  title: "▢- - - - - ʀᴇɢɪsᴛᴇʀ - - - - -",
-  buttonText: "Click Here !",
+  text: `│›Silakan pilih usia Anda di tombol bawah...`,
+  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔> Mau nama kostum? type *${usedPrefix + command} yourname.age*`,
+  title: "▢- - - - - ʀᴇɢɪsᴛʀᴀꜱɪ - - - - -",
+  buttonText: "Daftar Disini !",
   sections
 }
 
@@ -72,10 +72,10 @@ const listMessage = {
   let sn = createHash('md5').update(m.sender).digest('hex')
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : m.fromMe ? conn.user.jid : m.sender
   let cap = `
-┏─• *ᴜsᴇʀs*
+┏─• *ᴘᴇɴɢɢᴜɴᴀ*
 │▸ *sᴛᴀᴛᴜs:* ☑️ sᴜᴄᴄᴇssғᴜʟ
-│▸ *ɴᴀᴍᴇ:* ${name}
-│▸ *ᴀɢᴇ:* ${age} ʏᴇᴀʀs
+│▸ *ɴᴀᴍᴀ:* ${name}
+│▸ *ᴛᴀʜᴜɴ:* ${age} ʏᴇᴀʀs
 │▸ *sɴ:* ${sn}
 ┗────···
 
@@ -84,7 +84,7 @@ const listMessage = {
   let buttonMessage= {
 'document':{'url':sgc},
 'mimetype':global.ddocx,
-'fileName':'- - - - - ʀᴇɢɪsᴛᴇʀ - - - - -',
+'fileName':'- - - - - ʀᴇɢɪsᴛʀᴀꜱɪ - - - - -',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'contextInfo':{
