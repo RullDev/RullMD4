@@ -1,4 +1,4 @@
-# oscar-md-v4
+# Rull-MD4
 
 
 <p align="center">
@@ -22,7 +22,7 @@ colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 </div>
 <p align="center">
-Project created by <a href="https://github.com/Alpiii22">JAROT OFFC</a> to make it public
+Project created by <a href="https://github.com/RullDev">RullZy</a> to make it public
     <br>
        | © |
         Reserved |
