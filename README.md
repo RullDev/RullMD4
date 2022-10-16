@@ -8,10 +8,10 @@
 </p>
 <div align="center">
   <p align="center">
-<img src="https://telegra.ph/file/fe3102ddf5c1d9ab33190.gif" alt="Img" width="128" height="128"/>
+<img src="https://telegra.ph/file/c7c626ad5b699535b32fa.jpg" alt="Img" width="128" height="128"/>
 </p>
  <p align="center">
-<a href="#"><img title="Khrl" src="https://ibb.co/Fz8BKYJ
+<a href="#"><img title="Khrl" src="https://telegra.ph/file/c7c626ad5b699535b32fa.jpg
 colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
