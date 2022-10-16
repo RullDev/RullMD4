@@ -8,7 +8,7 @@
 </p>
 <div align="center">
   <p align="center">
-<img src="https://telegra.ph/file/c6f6d447f2c76e3795a10.jpg" alt="Img" width="128" height="128"/>
+<img src="https://telegra.ph/file/fe3102ddf5c1d9ab33190.gif" alt="Img" width="128" height="128"/>
 </p>
  <p align="center">
 <a href="#"><img title="Khrl" src="https://ibb.co/Fz8BKYJ
