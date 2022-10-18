@@ -285,7 +285,7 @@ let tek = `       *┄┄┄┅┅❑ DASHBOARD ❑┅┅┄┄┄*
    ┆⬡ *ɴᴀᴍᴀ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
    ┆⬡ *ᴛᴀɢs:* @${m.sender.split`@`[0]}
    ┆⬡ *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-   ┆⬡ *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Iya✅': 'Tidak❌'}
+   ┆⬡ *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Iya': 'Tidak'}
    ┆⬡ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
    ┆ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
    ┗┬──────────────┈ ⳹
