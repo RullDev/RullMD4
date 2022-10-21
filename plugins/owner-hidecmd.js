@@ -36,15 +36,15 @@ const listMessage = {
   text: info,
   footer: botdate,
   title: wm,
-  buttonText: "Click Here!",
+  buttonText: "Pilih Disini!",
   sections
 }
 await conn.sendMessage(m.chat, listMessage)
 //conn.sendHydrated(m.chat, info, wm, null, sgc, "🌎 Group Official", null,null, [['Owner','.owner']], m)
 }
 
-handler.help = ['sewa', 'premium']
+handler.help = ['owner', 'premium']
 handler.tags = ['main']
-handler.command = /^(sewa(bot)?|premium)$/i
+handler.command = /^(kebi(jakan)?|premium)$/i
 
 export default handler
