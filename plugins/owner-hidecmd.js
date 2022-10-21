@@ -5,14 +5,14 @@ let info = `
 🗣️: Kak, Data kita aman gak di bot?
 💬: Aman Owner Gk Bakal Ngambil Crush Kamu
 
-🗣️: S ga nih kak?
-💬: Enggalah, Owner 100% Tepati janji #STAYHALAL
+🗣️: Data Private ga nih kak?
+💬: Sans Aman Kok, Owner 100% Tepati janji #STAYAMANAH
 
 ▌│█║▌║▌║║▌║▌║█│▌
 `
 const sections = [
    {
-	title: `${htjava} SEWA ✦-------`,
+	title: `${htjava} ABOUT ✦-------`,
 	rows: [
 	    {title: "🔖 𝗛𝗘𝗠𝗔𝗧", rowId: '.order *Paket:* HEMAT • Sewa', description: '𝗣𝗿𝗶𝗰𝗲: ' + sh + 'k (1 minggu)' },
 	    {title: "🔖 𝗡𝗢𝗥𝗠𝗔𝗟", rowId: '.order *Paket:* NORMAL • Sewa', description: '𝗣𝗿𝗶𝗰𝗲: ' + sn + 'k (1 bulan)' },
@@ -21,7 +21,7 @@ const sections = [
 	{title: "🔖 𝗩𝗜𝗣", rowId: '.order *Paket:* VIP • Sewa', description: '𝗣𝗿𝗶𝗰𝗲: ' + sv + 'k (12 bulan)' },
 	]
     }, {
-    title: `${htjava} PREMIUM ✦-------`,
+    title: `${htjava} ABOUT2 ✦-------`,
 	rows: [
 	    {title: "🌟 𝗛𝗘𝗠𝗔𝗧", rowId: '.order *Paket:* HEMAT • Premium', description: '𝗣𝗿𝗶𝗰𝗲: ' + ph + 'k (1 minggu)' },
 	    {title: "🌟 𝗡𝗢𝗥𝗠𝗔𝗟", rowId: '.order *Paket:* NORMAL • Premium', description: '𝗣𝗿𝗶𝗰𝗲: ' + pn + 'k (1 bulan)' },
